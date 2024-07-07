@@ -91,7 +91,7 @@ main {
   @extend .pb-lg;
 }
 
-.thought {
+.about {
   @extend .content-width;
   @extend .mb-lg;
 
@@ -191,7 +191,7 @@ main {
   }
 }
 
-.houses {
+.gallary {
   @extend .content-width;
   @extend .mb-lg;
 
@@ -219,7 +219,7 @@ main {
   }
 }
 
-.popular {
+.plan {
   &__header {
     @extend .content-width;
   }
@@ -282,6 +282,12 @@ main {
     flex-basis: 100%;
     @extend .mb-lg;
   }
+}
+
+.news {
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
 }
 
 .footer {

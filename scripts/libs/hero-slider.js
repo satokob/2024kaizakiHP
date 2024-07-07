@@ -10,15 +10,11 @@ class HeroSlider {
             // direction: 'vertical',
             loop: true,
             grabCursor: true,
-            effect: 'coverflow',
+            effect: 'fade',
             centeredSlides: true,
             slidesPerView: 1,
-            speed: 1000,
-            breakpoints: {
-                1024: {
-                    slidesPerView: 2,
-                }
-            },
+            speed: 3000,
+            
         });
     }
 
