@@ -249,12 +249,6 @@ main {
     @include mq(md) {
       flex-basis: 47%;
     }
-    @include mq(lg) {
-      flex-basis: 25%;
-    }
-    @include mq(xl) {
-      flex-basis: 23%;
-    }
   }
 
   &__title {
@@ -263,7 +257,7 @@ main {
   }
 
   &__img {
-    height: 150px;
+    height: 280px;
     margin-bottom: 5px;
 
     @include mq(lg) {
@@ -293,7 +287,7 @@ main {
 .footer {
   padding: 60px 0;
   @extend .content-width;
-
+  
   &__nav {
     @extend .flex;
     justify-content: space-between;
